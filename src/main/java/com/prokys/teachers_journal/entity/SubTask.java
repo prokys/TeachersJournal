@@ -16,8 +16,8 @@ public class SubTask {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
-    private int taskId;
+    private long id;
+    private long taskId;
     private String title;
     private Boolean completed;
     private OffsetDateTime createdAt;

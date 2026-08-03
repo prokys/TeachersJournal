@@ -13,7 +13,7 @@ public class Task {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private long id;
     private String title;
     private String description;
     private OffsetDateTime deadline;
@@ -21,8 +21,8 @@ public class Task {
     private String status;
     private OffsetDateTime createdAt;
     private OffsetDateTime updatedAt;
-    private int userId;
-    private int classId;
-    private int subjectId;
+    private long userId;
+    private long classId;
+    private long subjectId;
 
 }
