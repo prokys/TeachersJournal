@@ -1,11 +1,13 @@
 import {BrowserRouter, Navigate, Route, Routes} from "react-router";
 
+import './App.css'
+
 import TasksPage from "./pages/TasksPage.tsx"
 import CalendarPage from "./pages/CalendarPage.tsx"
 import LoginPage from "./pages/LoginPage.tsx"
 import SubjectsPage from "./pages/SubjectsPage.tsx";
+import ClassesPage from "./pages/ClassesPage.tsx";
 
-import './App.css'
 
 function App() {
 
@@ -24,6 +26,8 @@ function App() {
         <Route path="/login" element={<LoginPage/>}/>
 
         <Route path="/subjects" element={<SubjectsPage/>}/>
+
+        <Route path="/classes" element={<ClassesPage/>}/>
 
     </Routes>
 
