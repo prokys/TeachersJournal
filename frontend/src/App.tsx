@@ -7,6 +7,7 @@ import CalendarPage from "./pages/CalendarPage.tsx"
 import LoginPage from "./pages/LoginPage.tsx"
 import SubjectsPage from "./pages/SubjectsPage.tsx";
 import ClassesPage from "./pages/ClassesPage.tsx";
+import SettingsPage from "./pages/SettingsPage.tsx";
 
 
 function App() {
@@ -28,6 +29,8 @@ function App() {
         <Route path="/subjects" element={<SubjectsPage/>}/>
 
         <Route path="/classes" element={<ClassesPage/>}/>
+
+        <Route path="/settings" element={<SettingsPage/>}/>
 
     </Routes>
 
