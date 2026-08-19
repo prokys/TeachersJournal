@@ -24,7 +24,7 @@ export default function Sidebar() {
                 <Typography
                     variant="h6"
                 >
-                    📖 Teacher Diary
+                    📖 Teachers Journal
                 </Typography>
             </Box>
 
