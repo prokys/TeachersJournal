@@ -1,6 +1,6 @@
 import { Box, Paper } from "@mui/material";
 
-import TaskList from "./TasksList";
+import TaskList from "./TaskList";
 import TaskHeader from "./TaskHeader";
 import SubTaskList from "./SubTaskList";
 import NoteList from "./NoteList";
